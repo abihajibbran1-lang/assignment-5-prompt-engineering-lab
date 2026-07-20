@@ -14,7 +14,7 @@ Replace with the tools you actually used, for example:
 - VS Code
 - Git and GitHub
 - Node.js
-- Cursor / Claude / Codex / Copilot / VS Code AI
+- Cursor
 
 ## Repository Structure
 
@@ -49,7 +49,6 @@ Replace with the tools you actually used, for example:
 - Progressive prompt improvement: bad → better → professional
 - Role, task, context, constraints, output format, edge cases, and verification
 - Minimal reproducible debugging context
-- Refactoring with an explicit no-behavior-change boundary
 - Prioritized code review with reproducible findings
 - Responsible-AI risk and disclosure requirements
 
