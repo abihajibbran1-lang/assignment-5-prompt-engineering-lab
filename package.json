@@ -1,0 +1,20 @@
+{
+  "name": "assignment-5-prompt-engineering-lab",
+  "version": "1.0.0",
+  "description": "Reusable JavaScript password-strength checker for Assignment 5.",
+  "main": "src/passwordstrength.js",
+  "type": "commonjs",
+  "scripts": {
+    "test": "node --test --test-isolation=none"
+  },
+  "keywords": [
+    "javascript",
+    "password-strength",
+    "validation"
+  ],
+  "license": "UNLICENSED",
+  "private": true,
+  "engines": {
+    "node": ">=18"
+  }
+}
