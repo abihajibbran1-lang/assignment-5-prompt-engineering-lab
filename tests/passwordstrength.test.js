@@ -24,3 +24,10 @@ for (const testCase of cases) {
     assert.ok(Array.isArray(result.feedback));
   });
 }
+
+test("provides explicit feedback when a password contains whitespace", () => {
+  const result = checkPasswordStrength("Pass word1!");
+
+  assert.equal(result.checks.hasNoWhitespace, false);
+  assert.ok(result.feedback.includes("Remove spaces and other whitespace."));
+});

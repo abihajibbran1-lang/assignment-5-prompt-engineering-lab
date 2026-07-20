@@ -78,3 +78,12 @@ test("handles non-object input safely", () => {
     errors: { form: ["Form data must be an object."] },
   });
 });
+
+test("rejects other non-form values at the top level", () => {
+  for (const value of [undefined, "form", 42, []]) {
+    assert.deepEqual(validateForm(value), {
+      isValid: false,
+      errors: { form: ["Form data must be an object."] },
+    });
+  }
+});
